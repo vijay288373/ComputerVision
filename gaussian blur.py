@@ -18,8 +18,8 @@ else:
     cv2.imshow("Blurred Image", blurred_image)
 
     # Save the blurred image to disk
-    cv2.imwrite("blurred_image.jpeg", blurred_image)
-    print("Blurred image saved as blurred_image.jpeg")
+    #cv2.imwrite("blurred_image.jpeg", blurred_image)
+    #print("Blurred image saved as blurred_image.jpeg")
 
     # Wait for a key press and close windows
     cv2.waitKey(0)
